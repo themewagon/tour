@@ -30,6 +30,10 @@
 	.intro-wrap {
 		position: relative;
 		z-index: 1;
+		@include media-breakpoint-down(md) {
+			margin-bottom: 1rem;
+
+		}
 	}
 
 	.slides {
@@ -45,7 +49,7 @@
 		// top: -300px;
 		// overflow: hidden;
 		
-		height: 608px;
+		aspect-ratio: 68/93;
 		margin-bottom: -200px;
 		@include media-breakpoint-down(md) {
 			left: 0;
